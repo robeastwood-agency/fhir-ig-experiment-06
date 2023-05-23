@@ -40,6 +40,6 @@
 }
 
 /* render the copy to clipboard buttons visible */
-.copy-text .btn-copy{
+.copy-text .btn-copy {
   visibility: visible;
 }
