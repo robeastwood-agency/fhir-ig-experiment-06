@@ -12,19 +12,12 @@
     non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </p>
 
-  <h3>FHIR validator use</h3>
+  <h3>Compliance with Web Content Accessibility Guidelines (WCAG)</h3>
   <p>
-    This command can be used to validate all HL7AU resource profiles:
+    <a target="_blank" href="https://www.w3.org/WAI/standards-guidelines/wcag">WCAG</a>
   </p>
-  <pre>
-java -jar validator.jar 
--version 4.0.1 
--ig https://robstwd.github.io/fhir-ig-experiment-06/package.tgz 
--profile "https://about.me/robeastwood/fhir/ig/StructureDefinition/structuredefinition-hl7au-sdf-1"
-au-fhir-base/input/resources/au-*.xml</pre>
-
   <p>
-    <a target="_blank" href="https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator">HL7 Using the FHIR Validator</a>:
+    <a target="_blank" href="https://wave.webaim.org/report#/https://robeastwood-agency.github.io/fhir-ig-experiment-06/index.html">Link to WebAIM web accessibility evaluation tool report for this page</a>
   </p>
 
 </div>
