@@ -1,0 +1,40 @@
+/* the colour of the hyperlinks in the footer */
+:root {
+  --footer-hyperlink-text-color: #F6F9C8;
+}
+
+/* the colour of the top navigation bar */
+.navbar-inverse {
+  background-color: #1E6DB6;
+}
+
+/* the 'on-hover' colour of the navigation bar menu headings */
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: #000000;
+}
+
+/* the thin bar across the page in line with the top of the navigation bar */
+#stripe {
+  background: #1E6DB6;
+}
+
+/* the font colour of the nav bar headings */
+.navbar-inverse .navbar-nav > li > a {
+  color:  #FFFFFF;
+}
+
+/* the colour of the hyperlinks in the main body of text */
+/* includes the hyperlinks in the yellow contents box */
+#segment-content a {
+  color: #005ba6;
+}
+
+/* the colour of the hyperlinks in the yellow publish box */
+#publish-box a {
+  color: #005ba6;
+}
+
+/* the colour of the footer background */
+#segment-footer > .container {
+  background-color: #707070;
+}
