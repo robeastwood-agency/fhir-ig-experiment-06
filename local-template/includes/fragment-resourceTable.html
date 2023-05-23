@@ -1,9 +1,11 @@
   <table class="{{site.data.resources[resource_].status.class}}">
 {% if site.data.resources[resource_].url != nil %}
     <tr>
+      <!-- RE 2023-05-23 add aria-label="Click to copy" in order to eliminate WCAG conformance error re empty button -->
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">{{site.data.resources[resource_].url}}<button aria-label="Click to copy" title="Click to copy URL" class="btn-copy" data-clipboard-text="{{site.data.resources[resource_].url}}"/></span>
       </td>
       <td><i>Version</i>:
+        <!-- RE 2023-05-23 add aria-label="Click to copy" in order to eliminate WCAG conformance error re empty button -->
       <span class="copy-text">{{site.data.resources[resource_].version}}<button aria-label="Click to copy" title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="{{site.data.resources[resource_].url}}|{{site.data.resources[resource_].version}}"/></span>
       </td>
     </tr>
