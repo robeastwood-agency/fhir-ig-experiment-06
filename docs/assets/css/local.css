@@ -73,3 +73,21 @@ table.colsd td {
 .self-link-parent span {
   color: var(--full-black) !important;
 }
+
+/* maximise the width of the xml code pane */
+pre.xml {
+  width: 100%;
+  overflow: auto
+}
+
+/* maximise the width of the json code pane */
+pre.json {
+  width: 100%;
+  overflow: auto
+}
+
+/* maximise the width of the rdf code pane */
+pre.rdf {
+  width: 100%;
+  overflow: auto
+}
