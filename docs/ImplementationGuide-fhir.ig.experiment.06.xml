@@ -459,6 +459,18 @@
       </reference>
       <name value="StructureDefinition Meta"/>
       <description value="This StructureDefinition profile enforces conventions for profiles, in metadata and structure"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/example"/>
+      </reference>
+      <name value="Patient - for testing"/>
+      <description value="Test example"/>
+      <exampleBoolean value="true"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
@@ -498,15 +510,15 @@
     </parameter>
     <parameter>
       <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
       <value value="input/resources/StructureDefinition/"/>
     </parameter>
     <parameter>
       <code value="path-resource"/>
       <value value="input/capabilities"/>
-    </parameter>
-    <parameter>
-      <code value="path-resource"/>
-      <value value="input/examples"/>
     </parameter>
     <parameter>
       <code value="path-resource"/>

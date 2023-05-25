@@ -526,7 +526,20 @@
          fhir:reference [ fhir:v "StructureDefinition/structuredefinition-meta-1" ]
        ] ;
        fhir:name [ fhir:v "StructureDefinition Meta" ] ;
-       fhir:description [ fhir:v "This StructureDefinition profile enforces conventions for profiles, in metadata and structure" ]
+       fhir:description [ fhir:v "This StructureDefinition profile enforces conventions for profiles, in metadata and structure" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Patient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://about.me/robeastwood/fhir/ig/Patient/example> ;
+         fhir:reference [ fhir:v "Patient/example" ]
+       ] ;
+       fhir:name [ fhir:v "Patient - for testing" ] ;
+       fhir:description [ fhir:v "Test example" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] ) ;
      fhir:page [
        fhir:extension ( [
@@ -567,13 +580,13 @@
        fhir:value [ fhir:v "input/resources" ]
      ] [
        fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/examples" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
        fhir:value [ fhir:v "input/resources/StructureDefinition/" ]
      ] [
        fhir:code [ fhir:v "path-resource" ] ;
        fhir:value [ fhir:v "input/capabilities" ]
-     ] [
-       fhir:code [ fhir:v "path-resource" ] ;
-       fhir:value [ fhir:v "input/examples" ]
      ] [
        fhir:code [ fhir:v "path-resource" ] ;
        fhir:value [ fhir:v "input/extensions" ]

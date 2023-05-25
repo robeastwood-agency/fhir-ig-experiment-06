@@ -613,7 +613,20 @@
         "reference" : "StructureDefinition/structuredefinition-meta-1"
       },
       "name" : "StructureDefinition Meta",
-      "description" : "This StructureDefinition profile enforces conventions for profiles, in metadata and structure"
+      "description" : "This StructureDefinition profile enforces conventions for profiles, in metadata and structure",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/example"
+      },
+      "name" : "Patient - for testing",
+      "description" : "Test example",
+      "exampleBoolean" : true
     }],
     "page" : {
       "extension" : [{
@@ -657,15 +670,15 @@
     },
     {
       "code" : "path-resource",
+      "value" : "input/examples"
+    },
+    {
+      "code" : "path-resource",
       "value" : "input/resources/StructureDefinition/"
     },
     {
       "code" : "path-resource",
       "value" : "input/capabilities"
-    },
-    {
-      "code" : "path-resource",
-      "value" : "input/examples"
     },
     {
       "code" : "path-resource",

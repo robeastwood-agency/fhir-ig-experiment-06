@@ -92,8 +92,3 @@ pre.rdf {
   width: 100%;
   overflow: auto
 }
-
-/* increase contrast of greyed-out text */
-.dict span {
-  color: var(--text-greyed-out-color) !important;
-}
