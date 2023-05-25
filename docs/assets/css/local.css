@@ -7,6 +7,7 @@
   --full-white: #FFFFFF; /* full white for navigation bar fonts */
   --body-hyperlink-color: #005ba6; /* the colour of hyperlinks */
   --canonical-table-background-color: #ffffe6; /* the colour of the background of the canonical table */
+  --text-greyed-out-color: #707070; /* the colour of the greyed-out text in the detailed description pages */
 }
 
 /* the styling of the IG title */
@@ -90,4 +91,9 @@ pre.json {
 pre.rdf {
   width: 100%;
   overflow: auto
+}
+
+/* increase contrast of greyed-out text */
+.dict span {
+  color: var(--text-greyed-out-color) !important;
 }
