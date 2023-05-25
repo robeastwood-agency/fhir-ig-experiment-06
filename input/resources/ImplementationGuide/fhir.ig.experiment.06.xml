@@ -48,6 +48,16 @@
       </reference>
       <description
         value="This StructureDefinition profile enforces conventions for profiles, in metadata and structure" />
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/example" />
+      </reference>
+      <name value="Patient - for testing" />
+      <description
+        value="Test example" />
+      <exampleBoolean value="true"/>  
     </resource>
 
     <page>
@@ -84,6 +94,10 @@
     <parameter>
       <code value="path-resource" />
       <value value="input/resources" />
+    </parameter>
+    <parameter>
+      <code value="path-resource" />
+      <value value="input/examples" />
     </parameter>
     <parameter>
       <code value="path-resource" />
