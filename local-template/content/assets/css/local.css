@@ -92,3 +92,9 @@ pre.rdf {
   width: 100%;
   overflow: auto
 }
+
+
+/* wrap lines in xml and json snippets */
+code[class*="language-"] {
+	white-space: break-spaces;
+}
