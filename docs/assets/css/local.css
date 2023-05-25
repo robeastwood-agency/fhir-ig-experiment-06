@@ -93,8 +93,14 @@ pre.rdf {
   overflow: auto
 }
 
-
-/* wrap lines in xml and json snippets */
-code[class*="language-"] {
+/* example snippets in xml */
+code[class*="language-xml"] {
 	white-space: break-spaces;
+  background-color: #F0FFFF;
+}
+
+/* example snippets in json */
+code[class*="language-json"] {
+	white-space: break-spaces;
+  background-color: #efffef;
 }
